@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@600&family=Montserrat:wght@800&family=Teko:wght@600&display=swap');
+
+*{
+    margin: 0px 1px;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+nav{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #283240;
+    
+}
+
+.logo{
+    width: 130px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2rem;
+    text-transform: uppercase;
+}
+
+.hero{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #0D0D0D;
+}
+
+.hero-titulo{
+    text-align: center;
+}
+.hero-titulo > h1{
+text-transform: uppercase;
+font-family: Montserrat;
+font-size:40px;
+color: 
+#188C8C;
+}
+
+.hero-titulo > h3{
+text-transform: uppercase;
+font-family: Montserrat;
+font-size:20px;
+}
+
+footer{
+    height: 8rem;
+    padding: 10px;
+    margin: 0px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color:#283240 ;
+    text-align: center;
+    font-family: Inter;
+}
+
+.footer-copy{
+    text-transform: uppercase;
+    font-size: 20px;
+}
